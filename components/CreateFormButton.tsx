@@ -72,7 +72,6 @@ function CreateFormButton() {
             Create a new form to start collecting responses
           </DialogDescription>
         </DialogHeader>
-        {/* <div className="flex flex-col gap-4 py-4"></div> */}
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-2">
             <FormField

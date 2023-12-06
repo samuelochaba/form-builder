@@ -7,7 +7,7 @@ async function FormCards() {
   return (
     <>
       {(await forms).map((form) => (
-        <FormCard form={form} />
+        <FormCard key={form.id} form={form} />
       ))}
     </>
   );
